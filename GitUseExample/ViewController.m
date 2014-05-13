@@ -24,6 +24,21 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    //Im just testing cherry picking
 }
+
+
+#pragma mark - IBActions
+
+- (IBAction)clickTheButton:(id)sender
+{
+    NSLog(@"This is a Git tutorial");
+}
+
+
+
+
+
 
 @end
